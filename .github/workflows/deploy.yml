@@ -37,17 +37,18 @@ jobs:
 
       - name: Run deploy script
         env:
-          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          CLOUDFLARE_API_TOKEN: "r3VefOtWFlT-mJERQtRNiJOUCZzGgEpi-Vqw_VkB"
+          CLOUDFLARE_ACCOUNT_ID: "772bd35ab3908ac2f9df2541fb411394"
           PROJECT_NAME: ${{ secrets.PROJECT_NAME }}
           DATABASE_NAME: ${{ secrets.DATABASE_NAME }}
-          DATABASE_ID: ${{ secrets.DATABASE_ID }}
+          DATABASE_ID: "b9529f72-cc83-4e75-b41a-4036f6c767ea"
           KV_NAMESPACE_NAME: ${{ secrets.KV_NAMESPACE_NAME }}
-          KV_NAMESPACE_ID: ${{ secrets.KV_NAMESPACE_ID }}
-          CUSTOM_DOMAIN: ${{ secrets.CUSTOM_DOMAIN }}
-          AUTH_GITHUB_ID: ${{ secrets.AUTH_GITHUB_ID }}
-          AUTH_GITHUB_SECRET: ${{ secrets.AUTH_GITHUB_SECRET }}
-          AUTH_SECRET: ${{ secrets.AUTH_SECRET }}
+          KV_NAMESPACE_ID: "007a485ca2ab4e64a4ebe660572d8492"
+          CUSTOM_DOMAIN: "dymail.nsc.edu.kg"
+          AUTH_GITHUB_ID: "Ov23lirqHBXS1Zbe2MDw"
+          AUTH_GITHUB_SECRET: "c621b7a690442ad9386a1e5a4d4ab54c69f3bd6e"
+          AUTH_SECRET: "G3ts9UOz0dq[;y*O<bA<<Pd&u5.BWd6C"
+          
         run: pnpm dlx tsx scripts/deploy/index.ts
 
       # Clean up
