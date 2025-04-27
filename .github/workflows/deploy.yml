@@ -37,7 +37,7 @@ jobs:
 
       - name: Run deploy script
         env:
-          CLOUDFLARE_API_TOKEN: "3a4c4ebbf37f9634e7fb7efc68777797a9c30"
+          CLOUDFLARE_API_TOKEN: "edJgRVXlq0jtTEhYPekKc8B7vtg7LRAkLicgWU48"
           CLOUDFLARE_ACCOUNT_ID: "772bd35ab3908ac2f9df2541fb411394"
           PROJECT_NAME: ${{ secrets.PROJECT_NAME }}
           DATABASE_NAME: ${{ secrets.DATABASE_NAME }}
