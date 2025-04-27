@@ -41,9 +41,9 @@ jobs:
           CLOUDFLARE_ACCOUNT_ID: "772bd35ab3908ac2f9df2541fb411394"
           PROJECT_NAME: ${{ secrets.PROJECT_NAME }}
           DATABASE_NAME: ${{ secrets.DATABASE_NAME }}
-          DATABASE_ID: "b9529f72-cc83-4e75-b41a-4036f6c767ea"
+          DATABASE_ID: ""
           KV_NAMESPACE_NAME: ${{ secrets.KV_NAMESPACE_NAME }}
-          KV_NAMESPACE_ID: "007a485ca2ab4e64a4ebe660572d8492"
+          KV_NAMESPACE_ID: ""
           CUSTOM_DOMAIN: "dymail.nsc.edu.kg"
           AUTH_GITHUB_ID: "Ov23lirqHBXS1Zbe2MDw"
           AUTH_GITHUB_SECRET: "c621b7a690442ad9386a1e5a4d4ab54c69f3bd6e"
